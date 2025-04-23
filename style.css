@@ -1,0 +1,662 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    
+
+}
+.nav ul{
+    display: flex;
+    float: left;
+    position: absolute;
+   right: 100px;
+   top: 19px;
+
+    
+}
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(14, 13, 13);
+   font-size: 12px;
+    
+    
+}
+.nav ul a ul{
+     list-style: none;
+     flex-direction: column;
+     margin-right: 32px;
+     bottom: 5px;
+     line-height: 15px;
+     
+}
+.nav ul a ul li{
+    display: none;
+}
+
+.nav ul a:hover ul li{
+    display: flex;
+    
+}
+.nav ul li{
+    padding: 0px 20px;
+    
+}
+.nav ul a:first-child{
+    color: #7A72FF;
+}
+.nav ul li:hover{
+    color: #7A72FF;
+}
+.text{
+    margin-top: 250px;
+    margin-left: 40px;
+    position: relative;
+}
+.text h5{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.text h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 20px 0;
+}
+.text p{
+    color:#777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    width: 500px;
+    
+}
+.text a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 30px;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    text-transform: uppercase;
+    position: absolute;
+    top: 180px;
+}
+.text a:hover{
+    box-shadow: 5px 10px 30px rgb(130, 147, 255);
+    transition: all 0.5 ease-in 0.1s;
+    outline: none;
+}
+.text img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -170px;
+    margin-right: 10%;
+    height: 550px;
+}
+section{
+    display: flex;
+    margin-top: 27%;
+    justify-content: center;
+    align-items: center;
+}
+.text2 h5{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgb(0, 0, 0.4);
+}
+.text2 h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.text2 p{
+    font-weight: normal;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.4px;
+    max-width: 445px;
+    
+}
+.img2{
+    position: relative;
+    right: 100px;
+}
+.text2{
+    position: relative;
+    left: 25px;
+    top: -30px;
+}
+.text2 input{
+    margin-top: 5px;
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgb(130, 147, 255);
+    transition: all 0.5 ease-in 0.1s;
+}
+.text3{
+    text-align: center;
+}
+.text3 h1{
+    font-size: 36px;
+}
+.text3 p{
+    width:620px ;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+}
+.text4 div p{
+    width: 380px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.text4 div a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.text4 div i{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px;
+    font-size: 30px;
+    
+}
+.fa-laptop-file{
+    padding: 0 0 0 30px;
+}
+.text4 div:hover{
+    color: rgb(130, 147, 255);
+}
+.text4 div:hover a{
+    color: rgb(130, 147, 255);
+}
+.text5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+    position: relative;
+}
+.text5 div p{
+    width: 380px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.text5 div a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;   
+}
+.text5 div i{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 45px;
+    font-size: 30px;
+    
+}
+.text5 div:hover{
+    color: rgb(130, 147, 255);
+}
+.text5 div:hover a{
+    color: rgb(130, 147, 255);
+}
+.text6{
+    width: 100%;
+    height: 230px;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: #fff;
+    margin-top: 90px;
+    
+}
+.text6 div{
+   float: left;
+   margin-left: 150px;
+   margin-top: 50px;
+   
+}
+.text6 div h4{
+    font-size: 36px;
+    margin-left: 30px;
+   
+}
+.text6  p{
+    margin-top: -40px;
+}
+.happy{
+    margin-left: 21px;
+}
+.cups{
+    margin-left: 18px;
+}
+.text7{
+    text-align: center;
+    margin-top: 100px;
+}
+.text7 p{
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: -10px;
+}
+.text7 ul li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.text7 ul{
+    margin-left: 34%;
+    margin-top: 50px;
+}
+.text7 ul li:first-child{
+    color: rgb(130, 147, 255);
+}
+.text7 ul li:hover{
+    color: rgb(130, 147, 255);
+}
+.imgs{
+  margin-top: 100px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center; 
+}
+.imgs div img{
+    padding-top: 50px;
+    
+    
+}
+.imgs div p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.text8{
+    text-align: center;
+    margin-top: 90px;
+}
+.text8 p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.text h1{
+    font-size: 36px;
+}
+.immm{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+}
+.immm img{
+    float: left;
+    width: 35px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 6px;
+}
+.immm p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.immm h5{
+    color: rgba(0, 0, 0, 0.6);
+}
+.immm h4{
+    font-weight: lighter;
+}
+.img1{
+    margin-left: 50px;
+    width:500px ;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+.img1 p{
+    margin-left: 50px;
+    
+}
+.img1 h4{
+    margin-left: 50px;
+    margin-top: -7px;
+    
+}
+.img1 h5{
+    margin-left: 50px; 
+    margin-top: -13px; 
+}
+
+.do{
+    margin-left: 150px;
+    width:500px ;
+    height: 130px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.do p{
+    margin-left: 50px;
+}
+.do h4{
+    margin-left: 50px;
+    margin-top: -7px;
+    
+}
+.do h5{
+    margin-left: 50px;
+    margin-top: -13px;
+   
+}
+.text9{
+    text-align: center;
+    margin-top: 160px;
+    line-height: 10px;
+}
+.text9 p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.text9 h1{
+    font-size: 36px;
+}
+
+.card{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(249, 249, 255);
+    padding: 20px 0px;
+    border-radius: 20px;
+    
+}
+.card1{
+   width:240px;
+   height: auto;
+    
+}
+.card1 p{
+    color: rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+.card1 input{
+    position: absolute;
+    margin-top: -55px;
+   margin-left: -80px;
+   width: 170px;
+   height: 35px;
+   font-size: 16px;
+   display: none;
+}
+.card1:hover input{
+    display: flex;
+    margin-top: 12.5px;
+    margin-left: 36px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.card1:hover h1{
+    display: none;
+}
+.card1:hover{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    padding: 0 2%;
+    border: 1px solid #8490ff;
+    border-radius: 20px;
+    
+}
+.card1:hover p{
+    color: #f9f6f6e1;  
+}
+.card1:hover h3{
+    color: #fff;
+    font-weight: bold;
+}
+.card1 h2{
+   font-size: 30px;
+}
+.imgt2 .dg{
+    display: block;
+}
+.imgt{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.imgt1{
+    width: 350px;
+    padding: 0 20px;
+}
+.dg1{
+  float: left;
+  margin-top: 3px;
+  width: 30px;
+  height: 30px;
+}
+.imgt1 h3{
+    margin-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+.imgt1 h4{
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.4)   
+}
+.fa-heart{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.fa-comment{
+    margin-left: 15px;
+}
+.imgt1 h2{
+    margin-top: 35px;
+}
+.imgt1 h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #313131;
+}
+.imgt1 p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.imgt1 a{
+   font-weight: lighter;
+}
+.imgt1 h3{
+    font-size: 15px;
+    font-weight: bold;   
+}
+.text10{
+    text-align: center;
+    margin-top: 100px;   
+}
+.text10 h1{
+    line-height: 10px;
+    font-size: 40px;  
+}
+.text10 p{
+    width: 650px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+.caber{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    margin-top: 90px;   
+}
+.caber img{
+    margin-left: 100px;
+    padding: 50px 0px;
+    opacity: 0.3;  
+}
+.caber img:hover{
+    opacity: 1; 
+}
+.box{
+   width: 100%;
+   height: 350px;
+   background-color: #04091e;
+   display: flex;  
+   justify-content: space-around;
+   text-align: center;
+   align-items: center;
+}
+.box p{
+    color: #777777;
+}
+.box h3{
+    color: #ffff;
+}
+.box1{
+    width: 490px;
+    margin-bottom: 30px;  
+}
+.box1 span{
+    color: #7A72FF;
+}
+.box1 p{
+    width: 430px;
+    font-size: 16px;
+}
+.box1 h3{
+    margin-right: 380px;
+}
+.box2{
+    margin-right: 200px;
+    position: relative;
+    margin-top: -100px;  
+}
+.box2 h3{
+    margin-right: 150px;
+}
+.box2 p{
+    font-size: 16px;
+}
+.in{
+    width: 360px;
+    height: 40px;
+    background-color: #ffff;
+    position: absolute;
+    padding-left: 7px;   
+}
+.in input{
+    width: 350px;
+    height: 34px;
+    font-size: 15px;
+    border: none;
+    outline: none;  
+    margin-top: 2px;
+}
+.in input::placeholder{
+    font-size: 18px;
+}
+.font{
+    width: 40px;
+    height: 40px;
+    background: #8490ff;
+    position: absolute;
+    right: -39px;
+    top: -0px;
+}
+.in i{
+    margin-top: 10px;
+}
+.box3{
+    margin-right: 50px;
+}
+.box3 h3{
+    margin-top: -70px;
+}
+.box3 p{
+    font-size: 16px;
+    line-height: 40px;
+}
+.box3 i{
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+#check{
+    display: none;
+}
+.nav i{
+    display: none;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    right: 0px;
+    top: 26px;
+    
+}
+@media(max-width:768px){
+  .nav ul{
+    top: 60px;
+    right: -0px;  
+  }
+  .nav ul li {
+    margin: 0 10px;
+    padding: 0;
+}
+.text{
+    margin-top: 90px;
+    position: relative;
+    
+}
+.text img{
+    position: absolute;
+    margin-top: 250px;
+    height: 300px;
+    margin-right: 210px;
+}
+.text p{
+    width: 440px;
+}
+
+.text2 p{
+    width: 440px;
+}
+section{
+    margin-top: 400px;
+}
+section img{
+    margin-top: 400px;
+    display: block;
+   
+    
+
+   
+}
+section .text2{
+    margin-bottom: 350px;
+    display: block;
+    margin-left: -600px;
+ 
+    
+
+}
+
+
+
+
+}
