@@ -1,30 +1,6 @@
-<<<<<<< HEAD
 
-# 🚀 Premium Digital Tools Website
-
-A modern and responsive web application that showcases premium digital products and tools. This project is designed with a clean UI, smooth user experience, and modern web design principles.
-
----
-
-## 🌐 Live Demo
-
-👉 https://premiumdigitalwebsite.netlify.app/
-
----
-
-## 📌 Features
-
-- ✨ Modern and clean UI design
-- 📱 Fully responsive (Mobile, Tablet, Desktop)
-- 🛒 Product listing with pricing plans
-- 📊 Stats section (Users, Tools, Ratings)
-- 💡 Pricing section (Starter, Pro, Enterprise)
-- 🚀 Smooth user experience
-- 🎯 Call-to-action sections (Get Started, Buy Now)
-=======
 <!-- Project Banner -->
 <img src="https://i.ibb.co.com/JFwqqvkw/webpage.png" />
-
 
 # 🌐 Personal Portfolio Website
 
@@ -55,7 +31,6 @@ This is a personal portfolio website designed to present personal information, s
 - 🖼️ Portfolio/gallery section
 - 📰 Blog section
 - 📩 Contact section (if added)
->>>>>>> 995b058 (update readme)
 
 ---
 
@@ -63,19 +38,8 @@ This is a personal portfolio website designed to present personal information, s
 
 - HTML5  
 - CSS3  
-<<<<<<< HEAD
-- Tailwind CSS  
-- JavaScript
-- React
----
+- Tailwind CSS (if used)  
 
 
-## 🚀 Getting Started
 
-To run this project locally:
 
-```bash
-git clone https://github.com/Kaowsar-Azad/6th-assignment.git
-cd 6th-assignment
-=======
->>>>>>> 995b058 (update readme)
