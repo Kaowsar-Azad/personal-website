@@ -38,7 +38,7 @@ This is a personal portfolio website designed to present personal information, s
 
 - HTML5  
 - CSS3  
-- Tailwind CSS (if used)  
+
 
 
 
